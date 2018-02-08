@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -56,6 +55,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Fww-rq-CoZ"/>
+                    <size key="freeformSize" width="375" height="667"/>
                     <connections>
                         <segue destination="t0z-q1-gem" kind="show" identifier="webSegue" id="3uB-us-9sX"/>
                     </connections>
