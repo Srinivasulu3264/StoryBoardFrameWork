@@ -40,6 +40,8 @@ Pod::Spec.new do |s|
 
   s.source_files  = "StoryBoardFrameWork", "StoryBoardFrameWork/**/*.{h,m,swift}"
 
+s.resources = "StoryBoardFrameWork/**/*.{png,jpeg,jpg,storyboard,xib}"
+
 
    s.requires_arc = true
 
