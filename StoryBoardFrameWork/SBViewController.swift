@@ -15,10 +15,21 @@ public class SBViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-
-    public func testFunction()
+    @IBAction func openWebPage(_ sender: Any) {
+    }
+    
+    public func testFunction(withLoaction:CGRect)
     {
         print("testing")
+        
+        let location = withLoaction
+        print(location)
+        
     }
 
+    @IBAction func alertAction(_ sender: Any)
+    {
+        performSegue(withIdentifier: "webSegue", sender: self)
+        
+    }
 }

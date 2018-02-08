@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86A51DF8202C5380001AA226 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A51DF7202C5380001AA226 /* WebViewController.swift */; };
 		86A7D73A2028712500458737 /* StoryBoardFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A7D7302028712500458737 /* StoryBoardFrameWork.framework */; };
 		86A7D73F2028712500458737 /* StoryBoardFrameWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A7D73E2028712500458737 /* StoryBoardFrameWorkTests.swift */; };
 		86A7D7412028712500458737 /* StoryBoardFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A7D7332028712500458737 /* StoryBoardFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86A51DF7202C5380001AA226 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		86A7D7302028712500458737 /* StoryBoardFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StoryBoardFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A7D7332028712500458737 /* StoryBoardFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoryBoardFrameWork.h; sourceTree = "<group>"; };
 		86A7D7342028712500458737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				86A7D7332028712500458737 /* StoryBoardFrameWork.h */,
 				86A7D74A2028714000458737 /* SBViewController.swift */,
+				86A51DF7202C5380001AA226 /* WebViewController.swift */,
 				86A7D74E2028736B00458737 /* FrameWorkStoryboard.storyboard */,
 				86A7D7342028712500458737 /* Info.plist */,
 			);
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86A7D74B2028714000458737 /* SBViewController.swift in Sources */,
+				86A51DF8202C5380001AA226 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
