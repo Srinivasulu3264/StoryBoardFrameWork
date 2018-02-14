@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -42,14 +41,24 @@
                                     <action selector="openWebPage:" destination="rw5-Es-fHI" eventType="touchUpInside" id="yFv-1I-2Av"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plant.png" translatesAutoresizingMaskIntoConstraints="NO" id="aLN-VR-oDm">
+                                <rect key="frame" x="40" y="174" width="295" height="128"/>
+                                <color key="backgroundColor" red="0.54324191808700562" green="0.38714081048965454" blue="0.91086238622665405" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Ch1-Sv-uln"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="yyD-Kp-F2J" firstAttribute="height" secondItem="dwQ-ZL-VmO" secondAttribute="height" id="3cr-tN-Vqj"/>
+                            <constraint firstItem="aLN-VR-oDm" firstAttribute="leading" secondItem="dpl-ht-aZR" secondAttribute="leading" constant="40" id="EaO-8O-3Rm"/>
                             <constraint firstItem="yyD-Kp-F2J" firstAttribute="width" secondItem="dwQ-ZL-VmO" secondAttribute="width" id="SYJ-g7-S6l"/>
+                            <constraint firstItem="aLN-VR-oDm" firstAttribute="centerX" secondItem="dpl-ht-aZR" secondAttribute="centerX" id="YTc-pX-HaO"/>
                             <constraint firstAttribute="trailing" secondItem="yyD-Kp-F2J" secondAttribute="trailing" constant="20" id="Z3m-nu-leV"/>
                             <constraint firstItem="yyD-Kp-F2J" firstAttribute="top" secondItem="dwQ-ZL-VmO" secondAttribute="top" id="dXb-4A-FoG"/>
                             <constraint firstItem="yyD-Kp-F2J" firstAttribute="leading" secondItem="dwQ-ZL-VmO" secondAttribute="trailing" constant="10" id="iXH-Go-AZh"/>
+                            <constraint firstItem="aLN-VR-oDm" firstAttribute="top" secondItem="dwQ-ZL-VmO" secondAttribute="bottom" constant="30" id="nhs-gc-E7G"/>
                             <constraint firstItem="dwQ-ZL-VmO" firstAttribute="top" secondItem="Tml-Tj-8v8" secondAttribute="bottom" constant="50" id="rtW-4v-H5g"/>
                             <constraint firstItem="dwQ-ZL-VmO" firstAttribute="leading" secondItem="dpl-ht-aZR" secondAttribute="leading" constant="20" id="xqY-8Z-KXj"/>
                         </constraints>
@@ -120,4 +129,7 @@
             <point key="canvasLocation" x="-351" y="114"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="plant.png" width="473" height="345"/>
+    </resources>
 </document>
