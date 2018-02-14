@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "StoryBoardFrameWork"
 
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
 
    s.summary      = "BeerChipFrameWork displays a webView and a AlertMessage"
 
@@ -35,12 +35,12 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
 
 
-  s.source       = { :git => "https://github.com/Srinivasulu3264/StoryBoardFrameWork.git", :tag => "0.0.8" }
+  s.source       = { :git => "https://github.com/Srinivasulu3264/StoryBoardFrameWork.git", :tag => "0.0.9" }
 
 
   s.source_files  = "StoryBoardFrameWork", "StoryBoardFrameWork/**/*.{h,m,swift}"
 
-s.resources = "StoryBoardFrameWork/**/*.{png,jpeg,jpg,storyboard,xib}"
+ s.resources = "StoryBoardFrameWork/**/*.{xcassets,png,jpeg,jpg,storyboard,xib}"
 
 
    s.requires_arc = true
